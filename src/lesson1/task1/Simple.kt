@@ -8,21 +8,24 @@ import java.lang.Math.*
  *
  * Вычисление квадрата вещественного числа
  */
-fun sqr(x: Double) = x * x
+fun sqr(x: Double) = 
+        x * x
 
 /**
  * Пример
  *
  * Вычисление дискриминанта квадратного уравнения
  */
-fun discriminant(a: Double, b: Double, c: Double) = sqr(b) - 4 * a * c
+fun discriminant(a: Double, b: Double, c: Double) = 
+        sqr(b) - 4 * a * c
 
 /**
  * Пример
  *
  * Поиск одного из корней квадратного уравнения
  */
-fun sqRoot(a: Double, b: Double, c: Double) = (-b + sqrt(discriminant(a, b, c))) / (2 * a)
+fun sqRoot(a: Double, b: Double, c: Double) = 
+        (-b + sqrt(discriminant(a, b, c))) / (2 * a)
 
 /**
  * Пример
@@ -52,6 +55,9 @@ fun main(args: Array<String>) {
  * Рассчитать время в секундах, прошедшее с начала суток (30035 в данном случае).
  */
 fun seconds(hours: Int, minutes: Int, seconds: Int): Int = seconds + 60 * (minutes + 60 * hours)
+
+
+
 
 /**
  * Тривиальная
