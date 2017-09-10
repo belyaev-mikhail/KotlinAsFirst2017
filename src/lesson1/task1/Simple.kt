@@ -61,7 +61,7 @@ fun seconds(hours: Int, minutes: Int, seconds: Int): Int = seconds + 60 * (minut
  * 1 сажень = 3 аршина = 48 вершков, 1 вершок = 4.445 см.
  */
 fun lengthInMeters(sagenes: Int, arshins: Int, vershoks: Int): Double =
-        (vershoks + sagenes * 48 + arshins * 16) * 4.445
+        (vershoks + sagenes * 48 + arshins * 16) * 0.04445
 
 /**
  * Тривиальная
@@ -87,7 +87,7 @@ fun trackLength(x1: Double, y1: Double, x2: Double, y2: Double): Double =
  * Пользователь задает целое число, большее 100 (например, 3801).
  * Определить третью цифру справа в этом числе (в данном случае 8).
  */
-fun thirdDigit(number: Int): Int = numberRevert(number) % 10
+fun thirdDigit(number: Int): Int = numberRevert(number / 1000) % 10
 
 /**
  * Простая
