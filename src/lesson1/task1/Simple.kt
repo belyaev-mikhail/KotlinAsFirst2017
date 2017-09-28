@@ -25,7 +25,7 @@ fun discriminant(a: Double, b: Double, c: Double) =
  * Поиск одного из корней квадратного уравнения
  */
 fun sqRoot(a: Double, b: Double, c: Double) = 
-        (-b + sqrt(discriminant(a, b, c))) / (2 * a)
+        (-b + sqrt(discriminanto(a, b, c))) / (2 * a)
 
 /**
  * Пример
