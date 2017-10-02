@@ -16,6 +16,10 @@ fun minBiRoot(a: Double, b: Double, c: Double): Double {
         if (bc < 0.0) return Double.NaN // ... и ничего больше не делать
         return -Math.sqrt(bc)
         // Дальше функция при a == 0.0 не идёт
+        
+        
+        
+        
     }
     val d = discriminant(a, b, c)   // 2
     if (d < 0.0) return Double.NaN  // 3
