@@ -9,7 +9,9 @@ package lesson3.task1
 fun factorial(n: Int): Double {
     var result = 1.0
     for (i in 1..n) {
+        prinln("hello")
         result = result * i // Please do not fix in master
+        println()
     }
     return result
 }
