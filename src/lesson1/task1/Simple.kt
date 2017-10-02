@@ -6,11 +6,7 @@ import java.lang.Math.*
 /**
  * Пример
  *
- 
- 
- 
- 
- 
+  
  
  
  
@@ -22,6 +18,10 @@ fun sqr(x: Double) =
 /**
  * Пример
  *
+ 
+ 
+ 
+ 
  * Вычисление дискриминанта квадратного уравнения
  */
 fun discriminant(a: Double, b: Double, c: Double) = 
